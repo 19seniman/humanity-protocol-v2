@@ -151,7 +151,7 @@ def format_result(result):
 def main_loop():
     os.system("cls" if os.name == "nt" else "clear")
     print(Fore.CYAN + "\n" + "="*50)
-    print(Fore.YELLOW + " 19Seniman From Insider ".center(50, "⚡"))
+    print(Fore.GREEN + " 19Seniman From Insider ".center(50, "🎓"))
     print(Fore.CYAN + "="*50 + "\n")
     try:
         with open(TOKEN_FILE, "r") as f:
