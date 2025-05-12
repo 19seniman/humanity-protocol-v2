@@ -1,2 +1,2 @@
-bearer1
-bearer2
+isi tokenmu disini tanpa bearer
+tambah akun dsini 
