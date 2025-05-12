@@ -8,3 +8,11 @@ cd humanity-protocol-v2
 python3 -m venv humanity-protocol-v2
 
 source humanity-protocol-v2/bin/activate
+
+pip3 install -r requirements.txt
+
+nano tokens.txt
+simpan ctrl x y enter
+
+python3 main.py
+
