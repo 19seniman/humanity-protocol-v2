@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+tokens.txt
+claim_log.txt
+balance_debug.log
+.DS_Store
+*.log
