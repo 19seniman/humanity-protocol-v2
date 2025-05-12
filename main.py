@@ -197,7 +197,7 @@ def main():
     try:
         while True:
             main_loop()
-            print(Fore.GREEN + f"\n🔁 Menunggu 6 jam sebelum siklus berikutnya...\n")
+            print(Fore.GREEN + f"\n🔁 Menunggu 10 jam sebelum siklus berikutnya...\n")
             countdown_timer(6 * 60 * 60)  
     except KeyboardInterrupt:
         print(Fore.RED + "\n⏹ Dihentikan oleh pengguna!")
