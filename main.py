@@ -179,7 +179,7 @@ def main_loop():
     table.align = "l"
     for res in results:
         table.add_row(format_result(res))
-    print(Fore.GREEN + "\n" + "📊 HASIL AKHIR ".center(50, "="))
+    print(Fore.GREEN + "\n" + "📊 RAPOTMU DIKEHIDUPAN NYATA ".center(50, "="))
     print(table)
     with open("claim_log.txt", "a") as f:
         f.write(f"Claim Log - {time.ctime()}\n\n")
@@ -197,7 +197,7 @@ def main():
     try:
         while True:
             main_loop()
-            print(Fore.GREEN + f"\n🔁 Menunggu 10 jam sebelum siklus berikutnya...\n")
+            print(Fore.WHITE + f"\n🔁 Menunggu 10 jam sebelum siklus berikutnya, JANGAN LUPA REPOST TENTANG PALESTINA SIR\n")
             countdown_timer(10 * 60 * 60)  
     except KeyboardInterrupt:
         print(Fore.RED + "\n⏹ Dihentikan oleh pengguna!")
